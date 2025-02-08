@@ -25,7 +25,21 @@ Build the system includes 2 separate zones: LAN, WAN. These 2 zones connect to e
 ![pfsenserecon](pfsenserecon.png)
 
 
+## 2. Simulate DoS Attack
+- Using Caldera to simulate DoS attack to FW:
+![DoSAttack](DoSAttack.png)
+- Command to build Adversaries:
+![Command](Command.png)
+- Result:
+![DoSResult](DoSResult.png)
 
+## 3. Detect C2 Traffic by Pfsense FW
+- Using Caldera to generate script install Agent to Windows Client
+![agent](agent.png)
+- Use that script to run in Windows Client
+![Windows](windows.png)
+- Pfsense will alert the C2 Traffic
+![c2result](c2result.png)
 
 
 
